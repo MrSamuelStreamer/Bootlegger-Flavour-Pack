@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Defs>
+  <XenotypeDef>
+    <defName>MSS_BLFP_Connieblessed</defName>
+    <label>Connie-blessed</label>
+    <description>Enormous bruisers favoured by some families for their raw strength, whether it's busting into a bank vault or carrying off loot back to the safehouse. Due to their size no armour or guns can be used by these titans.</description>
+    <descriptionShort>Enormous melee titans that shrug off damage and deal massive unarmed strikes.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Custom/Neanderthal_4</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li MayRequire="redmattis.bigsmall.core">TitanFrame</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_CannotWearArmor</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_ToughSkin</li>
+      <li MayRequire="sarg.alphagenes">AG_HardBones</li>
+      <li>FireWeakness</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_UnarmedOnly</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_Unarmed_VeryStrong</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_Bloodlust</li>
+      <li>Aggression_HyperAggressive</li>
+      <li>Sleepy</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_Concussive_Resistance</li>
+      <li>Robust</li>
+      <li MayRequire="sarg.alphagenes">AG_Painless</li>
+      <li>Sterile</li>
+      <li>Beard_NoBeardOnly</li>
+      <li>Body_Hulk</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_SimpleMind</li>
+      <li>AptitudeRemarkable_Melee</li>
+      <li>ChemicalDependency_GoJuice</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_FourArms</li>
+    </genes>
+  </XenotypeDef>
+  <XenotypeDef>
+    <defName>MSS_BLFP_Bruiser</defName>
+    <label>Bruiser</label>
+    <description>Bruisers are larger than average baseliners employed for their raw brute strength, but what they make up for in brawn they lack in brains. </description>
+    <descriptionShort>Large, hard hitting melee specialists that lack brainpower.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Custom/Genie_4</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li MayRequire="redmattis.bigsmall.core">BS_ToughSkin</li>
+      <li>MeleeDamage_Strong</li>
+      <li>Robust</li>
+      <li>Pain_Reduced</li>
+      <li>Hair_BaldOnly</li>
+      <li>Body_Hulk</li>
+      <li>AptitudeTerrible_Shooting</li>
+      <li>AptitudeRemarkable_Melee</li>
+      <li>AptitudePoor_Intellectual</li>
+    </genes>
+  </XenotypeDef>
+  <XenotypeDef>
+    <defName>MSS_BLFP_Bruiser</defName>
+    <label>Bruiser</label>
+    <description>Bruisers are larger than average baseliners employed for their raw brute strength, but what they make up for in brawn they lack in brains. </description>
+    <descriptionShort>Large, hard hitting melee specialists that lack brainpower.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Custom/Genie_4</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li MayRequire="redmattis.bigsmall.core">BS_ToughSkin</li>
+      <li>MeleeDamage_Strong</li>
+      <li>Robust</li>
+      <li>Pain_Reduced</li>
+      <li>Hair_BaldOnly</li>
+      <li>Body_Hulk</li>
+      <li>AptitudeTerrible_Shooting</li>
+      <li>AptitudeRemarkable_Melee</li>
+      <li>AptitudePoor_Intellectual</li>
+    </genes>
+  </XenotypeDef>
+  <XenotypeDef>
+    <defName>MSS_BLFP_Gabaghoul</defName>
+    <label>Gabaghoul</label>
+    <description>Gabaghouls were originally created as a shocktroop deployed to mass battelfields capable of perpetually sustaining themselves on the death surround them, eliminating the need for supply lines. They have a special appreciation for fine dining in their civilian life to make up for the horrible sustainence when deployed.</description>
+    <descriptionShort>A fast melee shock troop capable of perpetually sustaining itself on corpses.</descriptionShort>
+    <iconPath>Xenotypes/BS_Returned</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li MayRequire="redmattis.bigsmall.core">BS_Deathlike</li>
+      <li MayRequire="redmattis.bigsmall.core">Cannibal</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_FeedingFrenzy</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_Talons</li>
+      <li MayRequire="sarg.alphagenes">AG_BloodVomit</li>
+      <li MayRequire="sarg.alphagenes">AG_CorpseFeeding</li>
+      <li MayRequire="sarg.alphagenes">AG_EfficientMandibles</li>
+      <li MayRequire="redmattis.bigsmall.core">VU_Unliving</li>
+      <li>MoveSpeed_Quick</li>
+      <li>UVSensitivity_Intense</li>
+      <li>FireWeakness</li>
+      <li>Aggression_HyperAggressive</li>
+      <li>MeleeDamage_Strong</li>
+      <li>VerySleepy</li>
+      <li MayRequire="sarg.alphagenes">AG_NightOwl</li>
+      <li MayRequire="redmattis.bigsmall.core">VU_Pallor</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_CreepyHaired</li>
+      <li MayRequire="redmattis.bigsmall.core">BS_GhoulHead</li>
+      <li MayRequire="sarg.alphagenes">AG_GauntBody</li>
+      <li MayRequire="sarg.alphagenes">AG_Skin_Rot</li>
+      <li>Instability_Major</li>
+      <li>AptitudeRemarkable_Cooking</li>
+    </genes>
+  </XenotypeDef>
+</Defs>
