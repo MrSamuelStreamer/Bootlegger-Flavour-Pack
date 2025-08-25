@@ -3,6 +3,7 @@
 	<ScenarioDef ParentName="ScenarioBase">
 		<defName>MSS_BootleggerScenario</defName>
 		<label>Bootlegger City Block</label>
+		<factionDef>PlayerFaction</factionDef>
 		<description>Through extortion, bribing, and favours, you've managed to grab yourself a corner of the city to begin your illustrious business, but the other families aren't happy about you breaking away and becoming the new competition. Especially when Law Enforcement is getting bolder and taking less prisoners...</description>
 		<scenario>
 			<summary>Bootleggers secure their corner of the big city.</summary>

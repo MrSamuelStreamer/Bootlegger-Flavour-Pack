@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Patch>
+    <!-- <Operation Class="PatchOperationReplace"> -->
+    <!--     <xpath>/Defs/MapGeneratorDef[@Name="MapCommonBase"]/genSteps</xpath> -->
+    <!--     <value> -->
+    <!--         <genSteps Inherit="False"> -->
+    <!--             <li>ElevationFertility</li> -->
+    <!--             <li>MutatorPostElevationFertility</li> -->
+    <!--             <li>Terrain</li> -->
+    <!--             <li>Terrain</li> -->
+    <!--             <li>MutatorPostTerrain</li> -->
+    <!--             <li>Roads</li> -->
+    <!--             <li>RockChunks</li> -->
+    <!--             <li>MutatorCriticalStructures</li> -->
+    <!--             <li>MutatorNonCriticalStructures</li> -->
+    <!--             <li>FindPlayerStartSpot</li> -->
+    <!--             <li>ScenParts</li> -->
+    <!--             <li MayRequire="Ludeon.RimWorld.Biotech">Pollution</li> -->
+    <!--             <li MayRequire="Ludeon.RimWorld.Biotech">AncientPollutionJunk</li> -->
+    <!--             <li>Plants</li> -->
+    <!--             <li>Snow</li> -->
+    <!--             <li>MutatorFinal</li> -->
+    <!--             <li>Animals</li> -->
+    <!--             <li>Fog</li> -->
+    <!--             <li>City_Walls</li> -->
+    <!--             <li>City_Streets</li> -->
+    <!--             <li>City_Docks</li> -->
+    <!--             <li>City_Prison</li> -->
+    <!--             <li>City_Hospital</li> -->
+    <!--             <li>City_Freezer</li> -->
+    <!--             <li>City_ProductionBuildings</li> -->
+    <!--             <li>City_MainBuildings</li> -->
+    <!--             <li>City_Houses</li> -->
+    <!--             <li>City_ThingGroups</li> -->
+    <!--             <li>City_Fields</li> -->
+    <!--             <li>City_Orchards</li> -->
+    <!--             <li>City_Sidewalks</li> -->
+    <!--             <li>City_ClearAnimals</li> -->
+    <!--             <li>City_Post</li> -->
+    <!--             <li>SettlementPower</li> -->
+    <!--             <li>CaveHives</li> -->
+    <!--         </genSteps> -->
+    <!--     </value> -->
+    <!-- </Operation> -->
+</Patch>

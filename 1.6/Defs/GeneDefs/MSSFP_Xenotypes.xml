@@ -33,7 +33,7 @@
   <XenotypeDef>
     <defName>MSS_BLFP_Bruiser</defName>
     <label>Bruiser</label>
-    <description>Bruisers are larger than average baseliners employed for their raw brute strength, but what they make up for in brawn they lack in brains. </description>
+    <description>Bruisers are larger than average baseliners employed for their raw brute strength, but what they make up for in brawn they lack in brains.</description>
     <descriptionShort>Large, hard hitting melee specialists that lack brainpower.</descriptionShort>
     <iconPath>UI/Icons/Xenotypes/Custom/Genie_4</iconPath>
     <inheritable>true</inheritable>
@@ -52,7 +52,7 @@
   <XenotypeDef>
     <defName>MSS_BLFP_Bruiser</defName>
     <label>Bruiser</label>
-    <description>Bruisers are larger than average baseliners employed for their raw brute strength, but what they make up for in brawn they lack in brains. </description>
+    <description>Bruisers are larger than average baseliners employed for their raw brute strength, but what they make up for in brawn they lack in brains.</description>
     <descriptionShort>Large, hard hitting melee specialists that lack brainpower.</descriptionShort>
     <iconPath>UI/Icons/Xenotypes/Custom/Genie_4</iconPath>
     <inheritable>true</inheritable>
