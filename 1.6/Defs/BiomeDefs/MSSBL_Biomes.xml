@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-    <BiomeDef>
+    <BiomeDef Name="MSSBL_City">
         <defName>MSSBL_City</defName>
         <label>City Block</label>
         <description>A city block</description>
@@ -17,30 +17,8 @@
         <mudTerrain>Marsh</mudTerrain>
         <riverbankTerrain>Riverbank</riverbankTerrain>
         <riverbankSizeRange>6~8</riverbankSizeRange>
-        <texture>World/Biomes/MSSFP_City</texture>
+        <texture>World/Biomes/MSSBL_City3</texture>
         <maxFishPopulation>500</maxFishPopulation>
-        <extraGenSteps>
-            <li>City_Walls</li>
-            <li>City_Streets</li>
-            <li>City_Docks</li>
-            <li>City_Bazaars</li>
-            <li>City_Prison</li>
-            <li>City_Hospital</li>
-            <li>City_Freezer</li>
-            <li>City_ProductionBuildings</li>
-            <li>City_MainBuildings</li>
-            <li>City_Houses</li>
-            <li>City_ThingGroups</li>
-            <li>City_Emplacements</li>
-            <li>City_Fields</li>
-            <li>City_Orchards</li>
-            <li>City_Sidewalks</li>
-            <li>City_ClearAnimals</li>
-            <li>City_Post</li>
-            <li>SettlementPower</li>
-            <li>ScatterShrines</li>
-            <li>CaveHives</li>
-        </extraGenSteps>
         <fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
             <freshwater_Common>
                 <Fish_Salmon MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Salmon>
@@ -99,6 +77,52 @@
                 <commonality>10</commonality>
             </li>
         </diseases>
+        <terrainsByFertility>
+            <li>
+                <terrain>Sand</terrain>
+                <min>-999</min>
+                <max>0.45</max>
+            </li>
+            <li>
+                <terrain>Soil</terrain>
+                <min>0.45</min>
+                <max>0.90</max>
+            </li>
+            <li>
+                <terrain>SoilRich</terrain>
+                <min>0.90</min>
+                <max>999</max>
+            </li>
+        </terrainsByFertility>
+        <extraGenSteps>
+            <li>City_Walls</li>
+            <li>City_Streets</li>
+            <!-- <li>City_Bazaars</li> -->
+            <li>City_Prison</li>
+            <li>City_Hospital</li>
+            <li>City_Freezer</li>
+            <li>City_MainBuildings</li>
+            <li>City_Houses</li>
+            <li>City_ThingGroups</li>
+            <li>City_Sidewalks</li>
+            <li>City_Post</li>
+            <li>SettlementPower</li>
+            <li>ScatterShrines</li>
+            <li>CaveHives</li>
+        </extraGenSteps>
+        <wildPlants>
+            <Plant_Grass>7.0</Plant_Grass>
+            <Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">5</Plant_GrayGrass>
+            <Plant_Dandelion>0.8</Plant_Dandelion>
+            <Plant_Bush>0.7</Plant_Bush>
+            <Plant_PincushionCactus>0.6</Plant_PincushionCactus>
+            <Plant_Agave>0.2</Plant_Agave>
+            <Plant_SaguaroCactus>0.26</Plant_SaguaroCactus>
+            <Plant_TreeDrago>0.20</Plant_TreeDrago>
+            <Plant_Berry>0.10</Plant_Berry>
+            <Plant_PebbleCactus MayRequire="Ludeon.RimWorld.Biotech">0.6</Plant_PebbleCactus>
+            <Plant_Reeds MayRequire="Ludeon.RimWorld.Odyssey">1</Plant_Reeds>
+        </wildPlants>
         <baseWeatherCommonalities>
             <Clear>18</Clear>
             <Fog>1</Fog>
@@ -116,5 +140,55 @@
         <allowedPackAnimals>
             <li>Muffalo</li>
         </allowedPackAnimals>
+    </BiomeDef>
+
+
+    <BiomeDef ParentName="MSSBL_City">
+        <defName>MSSBL_City_PlayerHome</defName>
+        <label>City Block</label>
+        <description>A city block</description>
+        <workerClass>MSSBL.BiomeWorker_City</workerClass>
+        <extraGenSteps Inherit="false">
+        </extraGenSteps>
+    </BiomeDef>
+
+
+    <BiomeDef ParentName="MSSBL_City">
+        <defName>MSSBL_City_Industry</defName>
+        <label>Industrial City Block</label>
+        <description>An industrial city block</description>
+        <workerClass>MSSBL.BiomeWorker_City</workerClass>
+        <extraGenSteps Inherit="false">
+            <li>City_Walls</li>
+            <li>City_Streets</li>
+            <li>City_Docks</li>
+            <li>City_ProductionBuildings</li>
+            <li>City_MainBuildings</li>
+            <li>City_ThingGroups</li>
+            <li>City_Sidewalks</li>
+            <li>City_Post</li>
+            <li>SettlementPower</li>
+            <li>ScatterShrines</li>
+            <li>CaveHives</li>
+        </extraGenSteps>
+    </BiomeDef>
+
+
+    <BiomeDef ParentName="MSSBL_City">
+        <defName>MSSBL_City_Field</defName>
+        <label>Farming City Block</label>
+        <description>A farming city block</description>
+        <workerClass>MSSBL.BiomeWorker_City</workerClass>
+        <extraGenSteps Inherit="false">
+            <li>City_Streets</li>
+            <li>City_ThingGroups</li>
+            <li>City_Sidewalks</li>
+            <li>City_Fields</li>
+            <li>City_Orchards</li>
+            <li>City_Post</li>
+            <li>SettlementPower</li>
+            <li>ScatterShrines</li>
+            <li>CaveHives</li>
+        </extraGenSteps>
     </BiomeDef>
 </Defs>
