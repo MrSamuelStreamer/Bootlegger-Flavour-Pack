@@ -3,7 +3,6 @@
 	<ScenarioDef ParentName="ScenarioBase">
 		<defName>MSS_BootleggerScenario</defName>
 		<label>Bootlegger City Block</label>
-		<factionDef>PlayerFaction</factionDef>
 		<description>Through extortion, bribing, and favours, you've managed to grab yourself a corner of the city to begin your illustrious business, but the other families aren't happy about you breaking away and becoming the new competition. Especially when Law Enforcement is getting bolder and taking less prisoners...</description>
 		<scenario>
 			<summary>Bootleggers secure their corner of the big city.</summary>
@@ -12,19 +11,6 @@
 				<factionDef>VFES_PlayerSettlement</factionDef>
 			</playerFaction>
 			<parts>
-			<li Class="ScenPart_PlanetLayer">
-				<def>PlanetLayer</def>
-				<layer>Orbit</layer>
-				<settingsDef>Orbit</settingsDef>
-				<hide>True</hide>
-				<tag>Orbit</tag>
-				<connections>
-					<li>
-						<tag>Surface</tag>
-						<zoomMode>ZoomIn</zoomMode>
-					</li>
-				</connections>
-			</li>
 			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
 				<def>ConfigPage_ConfigureStartingPawns</def>
 				<pawnChoiceCount>3</pawnChoiceCount>
@@ -92,6 +78,7 @@
 			</li>
 			<li Class="Cities.ScenPart_StartCity">
 				<def>StartCity</def>
+          		<inhabitantKind>Abandoned</inhabitantKind>
 			</li>
 		</parts>
 		</scenario>

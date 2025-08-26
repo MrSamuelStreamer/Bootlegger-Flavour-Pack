@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="TemperateForest"]/texture</xpath>
+        <value>
+            <texture>World/Biomes/MSSFP_City</texture>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="TemperateForest"]/label</xpath>
+        <value>
+            <label>City Block</label>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="TemperateForest"]/description</xpath>
+        <value>
+            <description>A sprawling city block.</description>
+        </value>
+    </Operation>
+</Patch>

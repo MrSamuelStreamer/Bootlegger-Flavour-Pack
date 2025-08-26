@@ -1,8 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Bootlegger-Flavour-Pack\1.6\Assemblies\MSSBL.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Bootlegger-Flavour-Pack\1.6\Assemblies\MSSBL.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Bootlegger-Flavour-Pack\1.6\Source\MSSBL\obj\Debug\MSSBL.csproj.AssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Bootlegger-Flavour-Pack\1.6\Source\MSSBL\obj\Debug\MSSBL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Bootlegger-Flavour-Pack\1.6\Source\MSSBL\obj\Debug\MSSBL.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Bootlegger-Flavour-Pack\1.6\Source\MSSBL\obj\Debug\MSSBL.sourcelink.json
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Bootlegger-Flavour-Pack\1.6\Source\MSSBL\obj\Debug\MSSBL.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Bootlegger-Flavour-Pack\1.6\Source\MSSBL\obj\Debug\MSSBL.pdb
