@@ -37,7 +37,7 @@
         </illegalFactions>
         
         <!-- The chance to get caught in a transaction -->
-        <chanceToGetCaught>0.5</chanceToGetCaught>
+        <chanceToGetCaught>1</chanceToGetCaught>    <!-- Temp -->
         
         <!-- Multiplier on the impact. With a positive number and appropriate strings, this would allow for positive goodwill on with faction A when trading with B. -->
         <impactMultiplier>-1</impactMultiplier>
