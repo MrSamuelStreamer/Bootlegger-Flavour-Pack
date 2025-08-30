@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MSSBL_Contraband_Booze_GiftWarning>Gifting {ILLEGALTHING_label} is against {FACTION_name} law. This may or may not affect your relations with them in the future</MSSBL_Contraband_Booze_GiftWarning>
+    <MSSBL_Contraband_Booze_SellWarning>Selling {ILLEGALTHING_label} is against {FACTION_name} law. This may or may not affect your relations with them in the future</MSSBL_Contraband_Booze_SellWarning>
+    <MSSBL_Contraband_Booze_LetterLabel>{FACTION_name} angered</MSSBL_Contraband_Booze_LetterLabel>
+    <MSSBL_Contraband_Booze_LetterDescGift>{FACTION_name} caught wind that you have been gifting {ILLEGALTHING_label} behind their back. They consider it to be against the law, and your relations have degraded</MSSBL_Contraband_Booze_LetterDescGift>
+    <MSSBL_Contraband_Booze_LetterDescSold>{FACTION_name} caught wind that you have been selling {ILLEGALTHING_label} behind their back. They consider it to be against the law, and your relations have degraded</MSSBL_Contraband_Booze_LetterDescSold>
+    <MSSBL_Contraband_Booze_RelationInfo>Goodwill with {FACTION_name} is now {1}. (Reduced by {2})</MSSBL_Contraband_Booze_RelationInfo>
+</LanguageData>
