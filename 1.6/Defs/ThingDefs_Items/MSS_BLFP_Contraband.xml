@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>MSS_BLFP_Contraband</defName>
+		<label>Disguised Contraband</label>
+		<description>Expensive illegal goods hidden below a bunch of assorted innocent goods, where no officer of the law would think to check.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\nContraband has a &lt;color=#db5304&gt;reduced&lt;/color&gt; risk of being detected when sold compared to base illegal products, however is not totally undetectable.\n\nContraband is worth approximately &lt;color=#db0404&gt;20% less&lt;/color&gt;than the value of the items when sold individually.</description>
+		<graphicData>
+			<texPath>Things/Item/MSS_Contraband</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1000</MarketValue>		<!-- Adjusted based on average value of bundled items -->
+			<Flammability>0.8</Flammability>
+			<Mass>1.5</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>	<!-- Needs custom contraband def with reduced risk -->
+		</thingCategories>
+	</ThingDef>
+</Defs>

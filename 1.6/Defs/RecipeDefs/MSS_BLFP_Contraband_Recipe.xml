@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>MSS_BLFP_Contraband</defName>
+		<label>Package contraband</label>
+		<description>Hide illegal products amongst seemingly innocent miscellaneous goods. Packaging contraband this way reduces the risk when selling the goods, but also reduced the value of the goods when compared to selling items individually.</description>
+		<jobString>Packaging contraband.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>1000</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanWorkshop</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Yayo</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Yayo</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Yayo</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<MSS_BLFP_Contraband>1</MSS_BLFP_Contraband>
+		</products>
+	</RecipeDef>
+</Defs>

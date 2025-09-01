@@ -4,29 +4,30 @@
         <defName>MSSBL_Alcohol</defName>
         <label>Alcohol</label>
         
-        <!-- the faction finding things illegal -->
         <factions>
             <li>Empire</li>
         </factions>
         
-        <!-- history events to register on gifted/sold -->
         <giftedHistoryEvent>MSSBL_GiftedAlcohol</giftedHistoryEvent>
         <soldHistoryEvent>MSSBL_SoldAlcohol</soldHistoryEvent>
         
-        <!-- Optional, but at least one should be populated -->
-        <chemicals> <!-- ChemicalDefs to make illegal -->
+       <chemicals>
             <li>Alcohol</li>
         </chemicals>
         <!-- <things> 
             <li>Beer</li>
-        </things>
+        </things> -->
         <thingCategories>
             <li>Drugs</li>
-        </thingCategories> -->
+            <li>BodyPartsNatural</li>
+            <li>WeaponsRanged</li>
+            <li>WeaponsUnique</li>
+            <li>Grenades</li>
+            <li>Corpses</li> 
+            <li>MortarShells</li>
+        </thingCategories>
         
-        <!-- Fully optional -->
-        
-        <illegalFactions> <!-- a list of factions that it's illegal to sell/gift to. Selling/gifting to other factions is allowed -->
+        <illegalFactions> 
             <li>Empire</li>
             <li>SettlerCivil</li>
             <li>SettlerRough</li>
@@ -36,20 +37,14 @@
             <li>OutlanderRough</li>
         </illegalFactions>
         
-        <!-- The chance to get caught in a transaction -->
-        <chanceToGetCaught>1</chanceToGetCaught>    <!-- Temp -->
+        <chanceToGetCaught>0.5</chanceToGetCaught>
         
-        <!-- Multiplier on the impact. With a positive number and appropriate strings, this would allow for positive goodwill on with faction A when trading with B. -->
-        <impactMultiplier>-1</impactMultiplier>
+        <impactMultiplier>2</impactMultiplier>
         
-        <!-- the LetterDef of the letter to send when discovered -->
         <letterType>ThreatSmall</letterType>
+    
+        <daysToImpact>1~10</daysToImpact>
         
-        <!-- random range from which to pick for the days until the faction discovers the illegal trade -->
-        <daysToImpact>1~2</daysToImpact>
-        
-        
-        <!-- string definitions -->
         <giftWarningKey>MSSBL_Contraband_Booze_GiftWarning</giftWarningKey>
         <sellWarningKey>MSSBL_Contraband_Booze_SellWarning</sellWarningKey>
         <letterLabelKey>MSSBL_Contraband_Booze_LetterLabel</letterLabelKey>
@@ -60,11 +55,11 @@
     
     <HistoryEventDef>
         <defName>MSSBL_GiftedAlcohol</defName>
-        <label>gifted alcohol</label>
+        <label>gifted contraband</label>
     </HistoryEventDef>
     
     <HistoryEventDef>
         <defName>MSSBL_SoldAlcohol</defName>
-        <label>sold alcohol</label>
+        <label>sold contraband</label>
     </HistoryEventDef>
 </Defs>
