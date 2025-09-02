@@ -9,7 +9,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>/Defs/ThingDef[defName="Pemmican"]/description</xpath>
         <value>
-            <label>A dry-cured and thinly sliced meat with a good balance of fat. Many different intergalatic cultures have their own word to describe Gabagool.</label>
+            <description>A dry-cured and thinly sliced meat with a good balance of fat. Many different intergalatic cultures have their own word to describe Gabagool.</description>
         </value>
     </Operation>
 </Patch>
