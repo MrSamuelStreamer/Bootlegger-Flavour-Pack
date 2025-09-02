@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Pemmican"]/label</xpath>
+        <value>
+            <label>Gabagool</label>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Pemmican"]/description</xpath>
+        <value>
+            <label>A dry-cured and thinly sliced meat with a good balance of fat. Many different intergalatic cultures have their own word to describe Gabagool.</label>
+        </value>
+    </Operation>
+</Patch>
