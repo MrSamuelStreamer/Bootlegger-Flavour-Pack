@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bootlegger-Flavour-Pack\\1.6\\Source\\MSSBL\\MSSBL.csproj": {}
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bootlegger-Flavour-Pack\\1.6\\Source\\MSSBL\\MSSBL.csproj": {}
   },
   "projects": {
-    "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bootlegger-Flavour-Pack\\1.6\\Source\\MSSBL\\MSSBL.csproj": {
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bootlegger-Flavour-Pack\\1.6\\Source\\MSSBL\\MSSBL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bootlegger-Flavour-Pack\\1.6\\Source\\MSSBL\\MSSBL.csproj",
+        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bootlegger-Flavour-Pack\\1.6\\Source\\MSSBL\\MSSBL.csproj",
         "projectName": "MSSBL",
-        "projectPath": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bootlegger-Flavour-Pack\\1.6\\Source\\MSSBL\\MSSBL.csproj",
-        "packagesPath": "C:\\Users\\mrsam\\.nuget\\packages\\",
-        "outputPath": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bootlegger-Flavour-Pack\\1.6\\Source\\MSSBL\\obj\\",
+        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bootlegger-Flavour-Pack\\1.6\\Source\\MSSBL\\MSSBL.csproj",
+        "packagesPath": "C:\\Users\\Kieran David Evans\\.nuget\\packages\\",
+        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Bootlegger-Flavour-Pack\\1.6\\Source\\MSSBL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mrsam\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Kieran David Evans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net48"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,12 +55,6 @@
               "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "target": "Package",
               "version": "[2.*, )"
-            },
-            "Microsoft.NETFramework.ReferenceAssemblies": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.0.3, )",
-              "autoReferenced": true
             },
             "System.Data.DataSetExtensions": {
               "target": "Package",

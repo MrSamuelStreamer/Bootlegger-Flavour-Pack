@@ -97,5 +97,8 @@
         <ReleaseFiles Update="..\..\Patches\MSS_Bootlegger_PlayerBasePatch.xml">
           <Link>Bootlegger-Flavour-Pack\1.6\Patches\MSS_Bootlegger_PlayerBasePatch.xml</Link>
         </ReleaseFiles>
+        <CommonFiles Update="..\..\..\Common\Languages\English\Keyed\Bootleggers.xml">
+          <Link>Bootlegger-Flavour-Pack\Common\Languages\English\Keyed\Bootleggers.xml</Link>
+        </CommonFiles>
     </ItemGroup>
 </Project>
