@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Cow"]/label</xpath>
+        <value>
+            <label>Moofia</label>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Cow"]/labelMale</xpath>
+        <value>
+            <labelMale>Moofia</labelMale>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Cow"]/label</xpath>
+        <value>
+            <label>Moofia</label>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Cow"]/description</xpath>
+        <value>
+            <description>Eyy, I'm grazin' 'ere! Moofia are a specially certified bonifide ratified dairy dispensin' livestock adapted to livin' in the big city. None of those soft wacko country cows, this here's the real deal!</description>
+        </value>
+    </Operation>
+</Patch>

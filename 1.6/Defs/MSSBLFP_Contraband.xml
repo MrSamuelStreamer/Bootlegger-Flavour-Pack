@@ -37,9 +37,9 @@
             <li>OutlanderRough</li>
         </illegalFactions>
         
-        <chanceToGetCaught>0.5</chanceToGetCaught>
+        <chanceToGetCaught>0.35</chanceToGetCaught>
         
-        <impactMultiplier>2</impactMultiplier>
+        <impactMultiplier>-2</impactMultiplier>
         
         <letterType>ThreatSmall</letterType>
     
