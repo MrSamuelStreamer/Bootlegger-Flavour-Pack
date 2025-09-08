@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ResearchProjectDef[defName="VFE_Manufacturing"]/prerequisites</xpath>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="VFE_Manufacturing"]/baseCost</xpath>
+        <value>
+          <baseCost>3000</baseCost>
+        </value>
+    </Operation>
+</Patch>
