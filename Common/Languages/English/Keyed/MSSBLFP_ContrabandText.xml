@@ -6,4 +6,7 @@
     <MSSBL_Contraband_Booze_LetterDescGift>{FACTION_name} caught wind that you have been gifting {ILLEGALTHING_label} behind their back. They consider it to be against the law, and your relations have degraded.</MSSBL_Contraband_Booze_LetterDescGift>
     <MSSBL_Contraband_Booze_LetterDescSold>{FACTION_name} caught wind that you have been selling {ILLEGALTHING_label} behind their back. They consider it to be against the law, and your relations have degraded.</MSSBL_Contraband_Booze_LetterDescSold>
     <MSSBL_Contraband_Booze_RelationInfo>Goodwill with {FACTION_name} is now {1}. (Reduced by {2})</MSSBL_Contraband_Booze_RelationInfo>
+    
+    <MSSBL_Setting_ChanceForRaid>Chance for raid on detection</MSSBL_Setting_ChanceForRaid>
+    <MSSBL_SettingsCategory>Bootleggers</MSSBL_SettingsCategory>
 </LanguageData>
