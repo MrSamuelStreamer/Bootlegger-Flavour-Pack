@@ -19,7 +19,7 @@ public class ITab_Tunnels: ITab
         size = WinSize;
         labelKey = "MSSBLTabTunnels";
 
-        if(_thread == null || !_thread.IsAlive){
+        if(_thread is not { IsAlive: true }){
             _thread = new Thread(() =>
             {
                 Thread.CurrentThread.IsBackground = true;
@@ -33,6 +33,8 @@ public class ITab_Tunnels: ITab
     private static Thread _thread;
 
     private static readonly Dictionary<Settlement, PathDetails> CachedPaths = new();
+
+    public Building_TunnelEntrance TunnelEntrance => SelThing as Building_TunnelEntrance;
 
 
     private class PathDetails()
@@ -111,9 +113,22 @@ public class ITab_Tunnels: ITab
                          s.Tile.Layer == SelThing.Tile.Layer))
             {
                 var distance = settlement.Tile.Layer.ApproxDistanceInTiles(settlement.Tile, SelThing.Tile);
-                
-                tab.ButtonTextLabeledPct(settlement.LabelCap, "Start Digging", 0.5f,
-                    labelIcon: settlement.def.ExpandingIconTexture);
+
+                if (TunnelEntrance.CurrentBill == null)
+                {
+                    if (tab.ButtonTextLabeledPct(settlement.LabelCap, "Start Digging", 0.5f,
+                            labelIcon: settlement.def.ExpandingIconTexture))
+                    {
+                        TunnelEntrance.CurrentBill = new TunnelBill(settlement, TunnelEntrance.Map, distance*1000);
+                    }
+                }else if (TunnelEntrance.CurrentBill.Settlement == settlement)
+                {
+                    if (tab.ButtonTextLabeledPct(settlement.LabelCap, "Cancel Digging", 0.5f,
+                            labelIcon: settlement.def.ExpandingIconTexture))
+                    {
+                        TunnelEntrance.CurrentBill = null;
+                    }
+                }
                 tab.LabelDouble("Path length", $"{distance}");
 
                 tab.GapLine();

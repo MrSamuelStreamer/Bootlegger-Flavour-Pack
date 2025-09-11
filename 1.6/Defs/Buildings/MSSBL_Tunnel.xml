@@ -50,7 +50,7 @@
     <surfaceType>Item</surfaceType>
     
     <inspectorTabs>
-      <li>MSSBL.ITab_Tunnels</li>
+      <li>ITab_Bills</li>
     </inspectorTabs>
     <building>
       <paintable>true</paintable>
@@ -62,5 +62,9 @@
         <workSpeedStat>MiningSpeed</workSpeedStat>
       </li>
     </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
   </ThingDef>
 </Defs>

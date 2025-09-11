@@ -1,26 +1,19 @@
-﻿using System.Collections.Generic;
-using RimWorld;
-using Verse;
+﻿using Verse;
 
 namespace MSSBL;
 
-public class Building_TunnelEntrance: Building, IBillGiver
+public class Building_TunnelEntrance: Building
 {
-    public bool CurrentlyUsableForBills()
+    public TunnelBill CurrentBill;
+    
+    public override void SpawnSetup(Map map, bool respawningAfterLoad)
     {
-        throw new System.NotImplementedException();
+        base.SpawnSetup(map, respawningAfterLoad);
     }
 
-    public bool UsableForBillsAfterFueling()
+    public override void ExposeData()
     {
-        throw new System.NotImplementedException();
+        base.ExposeData();
+        Scribe_Deep.Look(ref CurrentBill, "CurrentBill");
     }
-
-    public void Notify_BillDeleted(Bill bill)
-    {
-        throw new System.NotImplementedException();
-    }
-
-    public BillStack BillStack { get; }
-    public IEnumerable<IntVec3> IngredientStackCells { get; }
 }
